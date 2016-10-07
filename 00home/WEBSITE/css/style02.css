@@ -50,6 +50,10 @@
     margin: o auto;
 }
 
+.bigtitle a {
+    color: black;
+}
+
 .bigtitle p {
     width: 300px;
     font-size: 36px;
