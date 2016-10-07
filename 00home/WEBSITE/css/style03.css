@@ -64,19 +64,17 @@
 /*展示設計內容物*/
 
 .container-content {
-    padding: 0px 100px 50px 120px;
-    width: 80%;
+    padding: 0px 100px 50px 125px;
+    width: 100%;
 }
 
 .white {
     width: 1010px;
     height: 650px;
     border: 0.5px solid #bcbcbc;
-    float: left;
 }
 
 #focus {
-    width: 100%;
     height: 100%;
 }
 
