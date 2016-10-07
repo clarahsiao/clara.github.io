@@ -1,0 +1,129 @@
+/*導覽列*/
+
+.container {
+    width: 100%;
+}
+
+.hsi img {
+    width: 50px;
+    padding: px;
+    margin: 10px 130px;
+}
+
+.nav-link {
+    width: 800px;
+    max-width: 300px;
+    margin-left: 600px;
+    float: right;
+}
+
+.links {
+    width: 100%;
+    font-size: 15px;
+    display: inline;
+    letter-spacing: 3px;
+    color: #379f4f;
+}
+
+
+/*導覽其他分頁*/
+
+.links a {
+    color: #5fd97b;
+}
+
+.links a:hover {
+    color: aqua;
+    border-bottom: 3px solid;
+}
+
+
+/*進行中的頁面連結*/
+
+.links-active {
+    font-size: 15px;
+    display: inline;
+    letter-spacing: 3px;
+    color: #379f4f;
+}
+
+.links-active a {
+    color: #20ffa1;
+}
+
+
+/*內容介紹*/
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    padding: 0 100px;
+}
+
+.thumbnail {
+    margin: 0 auto;
+    height: 489px;
+    padding: 10px;
+    float: left;
+}
+
+.me {
+    font-size: 20px;
+    margin-left: 25px;
+    padding: 0px 0px 0px 17px;
+    letter-spacing: 2px;
+}
+
+.me2 {
+    font-size: 13px;
+    margin-left: 25px;
+    padding: 20px 1px 0px 17px;
+}
+
+.me3 {
+    font-size: 13px;
+    margin-left: 25px;
+    padding: 2px 1px 0px 17px;
+}
+
+.me4 {
+    font-size: 16px;
+    margin-left: 25px;
+    padding: 50px 17px 0px 17px;
+    font-style: italic;
+}
+
+.me5 {
+    margin-left: 25px;
+    padding: 305px 17px 0px 17px;
+}
+
+.resume {
+    color: #ff00a7;
+}
+
+.resume:hover {
+    color: aqua;
+    font-style: bold;
+    background-color: #fff35e;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+
+/*尾巴*/
+
+.footer {
+    border-top: 1px solid #379f4f;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+.footer p {
+    padding: 24px;
+    font-size: 12px;
+    text-align: center;
+    color: #379f4f;
+}

@@ -1,0 +1,28 @@
+     .jumbotron {
+         background-image: url(images/bg.jpg);
+         height: 100vh;
+         /*高100vh vh是指view height,也就是螢幕可視範圍高度的百分百*/
+         background-size: cover;
+         color: black;
+         padding: 150px;
+     }
+     
+     .btn-primary {
+         color: white;
+         background-color: #68bc15;
+         border-radius: 10px;
+         padding: 10px;
+     }
+     
+     .glyphicon glyphicon-record {
+         font-size: 30px;
+         color: aqua;
+     }
+     
+     .glyphicon-user {
+         font-size: 15px;
+         color: #fffad6;
+         padding-right: 10px;
+     }
+     
+     .collapse navbar-collapse {}

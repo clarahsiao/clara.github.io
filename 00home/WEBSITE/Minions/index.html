@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--因為裝了外掛jason才會有以下meta設定出現-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <!--jason生出的meta設定結束-->
+    <title>MINIONs</title>
+    <!--在title下面崁入link：第一個是bootstrap;第二個是自己寫的css-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> </head>
+
+<body>
+    <!--輪播、幻燈片結合jumbotron形式-->
+    <!-- jumbotron依據bootstrap寫法需要搭配carousel 而carousel需要給他一個ID-->
+    <!--carousel部分可以直接上w3school看範例直接複製調整-->
+    <div id="slideshow" class="carousel slide" data-ride="carousel">
+        <!--        carousel結束-->
+        <!--        4.每一個 假設有三個會動 就需要三個div active$會執行移動畫面需要在jumbotron上面再製作div-->
+        <!--5.每個會動的active item要給他個div.carousel-inner包起來
+        只能照key了 role="listbox"-->
+        <div class="carousel-inner" role="listbox">
+            <!--整個carousel要幻燈片,他的class一定要叫做item active搭配item,這是規定不能亂取-->
+            <div class="item active">
+                <!--1.開始製作圖片輪播-->
+                <!--2.因為要搭配css關係先設定jumbotron>container>row>col>在往上蓋-->
+                <!--3.因為圖文同在jumbotron所以需要放在同個容器同一層row,這裡圖7文字5,相加剛好12-->
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h1>Hello,minions</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti maxime blanditiis quibusdam voluptate harum neque nemo, cumque perspiciatis laboriosam pariatur enim tenetur officiis, earum temporibus dolorem iste adipisci ratione.</p>
+                                <!--內文下方設定一s個更多資訊,以button形式-->
+                                <button class="btn-primary">Read More</button>
+                            </div>
+                            <div class="col-md-7"> <img src="css/images/IMG_1534.JPG" alt="flash"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item ">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h1>Hello,minions</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti maxime blanditiis quibusdam voluptate harum neque nemo, cumque perspiciatis laboriosam pariatur enim tenetur officiis, earum temporibus dolorem iste adipisci ratione.</p>
+                                <button class="btn-primary">Read More</button>
+                            </div>
+                            <div class="col-md-7"> <img src="css/images/IMG_1537.JPG" alt="flash"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--左右控制鍵-->
+        <!--1.通常用大於等於符號來標示(實質為連結)而輪播carousel我們先前賦予他的id叫slideshow,所以左右控制鍵的連結要標注是連到這個ID上-->
+        <!--2.role屬性指的是告訴輔助設備這個項目是什麼，role="button"可以讓元素被點擊;data-slide屬性指的是，只接受prev和next-->
+        <!--span-->
+        <div class="control-btn"> <a href="#slideshow" class="left carousel-control" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="ture"></span></a>
+            <a href="#slideshow" class="right carousel-control" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hiddden="true"></span> </a>
+            <!--div是標籤表屬性;span也是標籤表屬性-->
+        </div>
+        <!--下方的點點-->
+        <!--太難了還是用複製貼上...傻眼-->
+        <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+        </ol>
+    </div>
+    <!--NavBar設定 選項都是超連結，都是用ul/ol設定-->
+    <!-- 輸入這一列設定nav就會自動置頂且背景變黑
+     <nav class="nav navbar-inverse navbar-fixed-top">-->
+    <nav class="nav navbar-inverse navbar-fixed-top">
+        <!--nav列用容器-->
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="" class="navbar-brand"><span class="glyphicon glyphicon-record"></span> M I N I O N s</a> </div>
+            <!--記得因為是超連結 要設定屬性a-->
+            <!--下面這段我不懂collapse navbar-collapse 還要設定id-->
+            <div class="collapse navbar-collapse" id="mynavbar" height="10px">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href=""><span class="glyphicon glyphicon-user"></span>Login</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--輪播需要轉動必須在/body前引用引用javascript跟jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

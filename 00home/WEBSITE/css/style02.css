@@ -1,0 +1,108 @@
+/*導覽列*/
+
+.container {
+    width: 100%;
+}
+
+.hsi img {
+    width: 50px;
+    padding: px;
+    margin: 10px 130px;
+}
+
+.nav-link {
+    width: 800px;
+    max-width: 300px;
+    padding-top: 70px;
+    margin-left: 600px;
+    float: right;
+}
+
+.links {
+    width: 100%;
+    font-size: 15px;
+    display: inline;
+    letter-spacing: 3px;
+    color: #379f4f;
+}
+
+
+/*導覽其他分頁*/
+
+.links a {
+    color: #5fd97b;
+}
+
+.links a:hover {
+    color: aqua;
+    border-bottom: 3px solid;
+}
+
+
+/*進行中的頁面連結*/
+
+
+/*說明*/
+
+.bigtitle {
+    text-align: left;
+    padding: 10px 130px 0px;
+    margin: o auto;
+}
+
+.bigtitle p {
+    width: 300px;
+    font-size: 36px;
+    color: black;
+}
+
+
+/*展示設計內容物*/
+
+.container-content {
+    padding: 0px 100px 50px 120px;
+    width: 80%;
+}
+
+.white {
+    width: 1010px;
+    height: 650px;
+    background-color: white;
+    float: left;
+}
+
+#focus {
+    width: 100%;
+    height: 100%;
+}
+
+.span-12 h3,
+.span-12 p {
+    width: 100%;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+}
+
+.span-12 p {
+    font-size: 15px;
+    padding-bottom: 80px;
+}
+
+
+/*尾巴*/
+
+.footer {
+    border-top: 1px solid #379f4f;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+.footer p {
+    padding: 24px;
+    font-size: 12px;
+    text-align: center;
+    color: #379f4f;
+}
