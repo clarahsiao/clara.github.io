@@ -4,9 +4,12 @@
     width: 100%;
 }
 
+.hsi {
+    height: 100px;
+}
+
 .hsi img {
     width: 50px;
-    padding: px;
     margin: 10px 130px;
 }
 
@@ -57,7 +60,7 @@
 
 .bigtitle {
     text-align: center;
-    padding: 10px 10px 0px;
+    padding: 0px 10px 0px;
     margin: o auto;
 }
 
@@ -81,18 +84,32 @@
     text-align: center;
 }
 
-.thumbnail {
+.thumbnail2 {
+    width: 100%;
+    text-align: center;
     height: 340px;
-    margin: 10px auto 20px 60px;
-    padding: 40px;
+    margin: 0px auto;
+    padding: 10px 0px;
 }
 
-.thumbnail2 {
+.thumbnail3 {
+    width: 100%;
     text-align: center;
+    height: 340px;
+    margin: 0px auto;
+    padding: 10px 0px;
+}
+
+.thumbnail4 {
+    width: 100%;
+    text-align: center;
+    height: 340px;
+    margin: 0px auto;
+    padding: 10px 0px;
 }
 
 .col-md-4 {
-    width: 350px;
+    width: 400px;
     height: 430px;
     float: left;
 }
