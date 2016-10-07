@@ -5,7 +5,7 @@
 }
 
 .hsi {
-    height: 100px;
+    height: 82px;
 }
 
 .hsi img {
@@ -80,7 +80,7 @@
 /*展示設計內容物*/
 
 .content {
-    height: 500px;
+    height: 450px;
     text-align: center;
 }
 
@@ -110,7 +110,7 @@
 
 .col-md-4 {
     width: 400px;
-    height: 430px;
+    height: 450px;
     float: left;
 }
 
