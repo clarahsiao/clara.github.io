@@ -49,9 +49,11 @@
     padding: 10px 130px 0px;
     margin: o auto;
 }
+
 .bigtitle a {
     color: black;
 }
+
 .bigtitle p {
     width: 300px;
     font-size: 36px;
@@ -74,7 +76,7 @@
 }
 
 #focus {
-    width: 100%;
+    width: 120%;
     height: 100%;
 }
 
