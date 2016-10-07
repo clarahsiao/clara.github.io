@@ -279,9 +279,9 @@
 
 .info {
     width: 100%;
-    height: 250px;
+    height: 700px;
     background-color: #2C3E50;
-    padding: 10px 100px;
+    padding: 50px 100px;
 }
 
 .grid {
@@ -303,12 +303,9 @@
     padding: 30px;
 }
 
-#footer {
+.idfooter {
     /*    絕對位置在底部*/
-    width: 100%;
-    height: 80px;
+    margin-left: -100px;
+    width: 1300px;
     background-color: #233140;
-    box-sizing: border-box;
-    position: absolute;
-    bottom: -2500px;
 }
