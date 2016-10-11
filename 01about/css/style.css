@@ -69,19 +69,19 @@
 
 .thumbnail1 {
     margin: 0 auto;
-    height: 280px;
+    height: 350px;
     padding: 30px 20px 20px 140px;
     float: left;
 }
 
 .thumbnail1 img {
-    width: 100%;
+    width: 120%;
     margin-left: -60px;
 }
 
 .thumbnail2 {
     margin: 0 auto;
-    height: 420px;
+    height: 510px;
     padding: 45px 20px 0 0px;
     float: left;
 }
