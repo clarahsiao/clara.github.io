@@ -7,13 +7,13 @@
 .hsi img {
     width: 50px;
     padding: px;
-    margin: 10px 130px;
+    margin: 10px 80px;
 }
 
 .nav-link {
     width: 100%;
     max-width: 300px;
-    margin-right: 48px;
+    margin-right: 50px;
     float: right;
 }
 
@@ -64,25 +64,24 @@
 .content {
     width: 100%;
     margin: 0 auto;
-    height: 550px;
+    height: 400px;
 }
 
 .thumbnail1 {
     margin: 0 auto;
-    height: 300px;
-    padding: 10px;
-    padding: 40px 20px 0 180px;
+    height: 280px;
+    padding: 30px 20px 20px 140px;
     float: left;
 }
 
 .thumbnail1 img {
-    width: 110%;
+    width: 100%;
     margin-left: -60px;
 }
 
 .thumbnail2 {
     margin: 0 auto;
-    height: 500px;
+    height: 420px;
     padding: 45px 20px 0 0px;
     float: left;
 }
@@ -115,7 +114,7 @@
 
 .me5 {
     margin-left: 25px;
-    padding: 305px 17px 0px 17px;
+    padding: 200px 17px 0px 17px;
 }
 
 .resume {
