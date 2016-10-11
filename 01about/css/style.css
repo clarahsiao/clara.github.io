@@ -6,14 +6,12 @@
 
 .hsi img {
     width: 50px;
-    padding: px;
     margin: 10px 130px;
 }
 
 .nav-link {
     width: 800px;
     max-width: 300px;
-    padding-top: 70px;
     margin-left: 600px;
     float: right;
 }
@@ -58,7 +56,7 @@
 .content {
     width: 100%;
     margin: 0 auto;
-    height: 400px;
+    height: 300px;
 }
 
 .thumbnail1 {
