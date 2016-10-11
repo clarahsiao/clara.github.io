@@ -7,28 +7,22 @@
 .hsi img {
     width: 50px;
     padding: px;
-    margin: 10px 80px;
+    margin: 10px 130px;
 }
 
 .nav-link {
-    width: 100%;
+    width: 800px;
     max-width: 300px;
-    margin-right: 50px;
+    padding-top: 70px;
+    margin-left: 600px;
     float: right;
-}
-
-.links {
-    display: inline;
 }
 
 .links {
     width: 100%;
     font-size: 15px;
+    display: inline;
     letter-spacing: 3px;
-    color: #379f4f;
-}
-
-.delimiter {
     color: #379f4f;
 }
 
