@@ -51,21 +51,60 @@
 }
 
 .bigtitle p {
-    width: 300px;
+    width: 100%;
     font-size: 36px;
     color: black;
 }
 
-.second {
-    width: 100%;
-    text-align: center;
-    font-size: 12px;
-    line-height: 1px;
-    color: #9a9a9a
-}
-
 
 /*展示設計內容物*/
+
+.content {
+    width: 100%;
+}
+
+.thumbnail {
+    height: auto;
+    margin: -40px auto 70px 100px;
+    padding: 30px;
+}
+
+.col-md-4 {
+    width: 250px;
+    float: left;
+}
+
+.col-md-4 img {
+    margin: 10px 50px;
+    width: 85%;
+    border-radius: 25px;
+}
+
+.projectstyle {
+    color: #379f4f;
+    width: 170px;
+    padding: 10px 0px 10px 140px;
+    font-size: 18px
+}
+
+.buttom {
+    margin: 20px 120px;
+}
+
+.buttom a {
+    display: inline;
+    font-size: 13px;
+    color: black;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.buttom a:hover {
+    background-color: black;
+    color: white;
+}
 
 
 /*尾巴*/

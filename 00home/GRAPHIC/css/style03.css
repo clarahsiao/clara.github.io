@@ -59,7 +59,7 @@
 }
 
 .bigtitle p {
-    width: 300px;
+    width: 100%;
     font-size: 36px;
     color: black;
 }
@@ -69,28 +69,30 @@
 
 .container-content {
     padding: 0px 100px 50px 120px;
-    width: 80%;
+    width: 100%;
 }
 
-.white {
-    width: 370px;
-    height: 650px;
-    background-color: white;
+.white img {
+    width: 100%;
+    padding: 0 250px;
+}
+
+.span-6 h3,
+.span-6 p {
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
     float: left;
+}
+
+.words {
+    padding: 20px;
+    height: 200px;
 }
 
 #focus {
     width: 120%;
     height: 100%;
-}
-
-.span-6 h3,
-.span-6 p {
-    width: 50%;
-    padding: 10px;
-    line-height: 30px;
-    text-align: center;
-    float: left;
 }
 
 .tools {

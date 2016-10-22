@@ -28,34 +28,39 @@
     display: inline;
 }
 
-
-}
 .links {
     width: 100%;
     font-size: 15px;
     letter-spacing: 3px;
     color: #379f4f;
 }
+
 .delimiter {
     color: #379f4f;
 }
 
+
 /*導覽其他分頁*/
+
 .links a {
     color: #5fd97b;
 }
+
 .links a:hover {
     color: aqua;
     border-bottom: 3px solid;
 }
 
+
 /*進行中的頁面連結*/
+
 .links-active {
     font-size: 15px;
     display: inline;
     letter-spacing: 3px;
     color: #379f4f;
 }
+
 .links-active a {
     color: #20ffa1;
 }
