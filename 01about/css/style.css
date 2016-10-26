@@ -62,12 +62,12 @@
 .thumbnail1 {
     margin: 0 auto;
     height: 350px;
-    padding: 30px 20px 20px 140px;
+    padding: 30px 20px 20px 180px;
     float: left;
 }
 
 .thumbnail1 img {
-    width: 120%;
+    width: 130%;
     margin-left: -60px;
 }
 
@@ -94,7 +94,13 @@
 .me3 {
     font-size: 13px;
     margin-left: 25px;
-    padding: 2px 1px 0px 17px;
+    padding: 4px 1px 0px 17px;
+}
+
+.me6 {
+    font-size: 13px;
+    margin-left: 25px;
+    padding: 12px 1px 0px 17px;
 }
 
 .me4 {
