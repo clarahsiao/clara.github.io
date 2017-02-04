@@ -77,6 +77,11 @@
     padding: 0 90px;
 }
 
+.white2 img {
+    width: 100%;
+    padding: 0 0px 20px 20px;
+}
+
 .span-6 h3,
 .span-6 p {
     width: 100%;

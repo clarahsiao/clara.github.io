@@ -74,7 +74,16 @@
 
 .white img {
     width: 100%;
-    padding: 0 250px;
+    padding: 0 200px;
+}
+
+.container-content2 {
+    padding: 0px 100px 50px 200px;
+}
+
+.white2 img {
+    width: 75%;
+    padding: 0px 0px 30px 60px;
 }
 
 .span-6 h3,
